@@ -1,3 +1,5 @@
 <h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+{{#each model as |event|}}
+  {{gh-event event=event}}
+{{/each}}
