@@ -19,6 +19,9 @@
       <ul>
         {{#each commits as |commit|}}
           <li>
+            <span title={{commit.author.name}}>
+              <img class="gravatar" alt={{commit.author.name}} src={{gravatar commit.author.email size=32}} width="16" height="16">
+            </span>
             <code title={{commit.sha}}><a href="https://github.com/{{event.repo.name}}/commit/{{commit.sha}}">
               {{~commit.sha~}}
             </a></code>
