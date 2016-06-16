@@ -78,6 +78,7 @@
 .github-event .commits ul {
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 0.3rem;
 }
 
 .github-event .commits li {
