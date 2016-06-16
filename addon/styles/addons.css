@@ -71,6 +71,10 @@
   border-radius: 3px;
 }
 
+.github-event .commits {
+  display: table-cell;
+}
+
 .github-event .commits ul {
   padding-left: 0;
   margin-bottom: 0;
