@@ -9,6 +9,7 @@ const IMPLEMENTED_TYPES = [
   'IssueCommentEvent',
   'IssuesEvent',
   'MemberEvent',
+  'PublicEvent',
   'PullRequestEvent',
   'PushEvent',
   'WatchEvent'
