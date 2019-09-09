@@ -4,14 +4,14 @@ import layout    from '../templates/components/gh-event'
 
 const IMPLEMENTED_TYPES = [
   'CreateEvent',
+  'DeleteEvent',
   'ForkEvent',
-  'PullRequestEvent',
-  'PushEvent',
-  'WatchEvent',
   'IssueCommentEvent',
   'IssuesEvent',
-  'DeleteEvent',
-  'MemberEvent'
+  'MemberEvent',
+  'PullRequestEvent',
+  'PushEvent',
+  'WatchEvent'
 ]
 
 import {
