@@ -12,6 +12,7 @@ const IMPLEMENTED_TYPES = [
   'PublicEvent',
   'PullRequestEvent',
   'PushEvent',
+  'ReleaseEvent',
   'WatchEvent'
 ]
 
