@@ -1,0 +1,12 @@
+<div class="body">
+  {{gh-octicon icon}}
+
+  <div class="title">
+    <a href="https://github.com/{{event.sender.login}}">{{event.sender.login}}</a>
+    {{event.paylaod.action}}
+    <a href="{{event.payload.release.html_url}}">
+      {{~event.payload.tag_name~}}
+    </a>
+  </div>
+  <div class="time">{{moment-from-now event.created_at}}</div>
+</div>
